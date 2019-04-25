@@ -243,7 +243,7 @@ label:
                 break;
             }
         }
-        cout<<"如果你想退出请输入y，否则输入n"<<endl;
+        cout<<"如果你想退出请输入n，否则输入y"<<endl;
         cin>>ch;
 
         while('y'!=ch && 'n'!=ch)
