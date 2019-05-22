@@ -2,9 +2,9 @@
 
 using namespace std;
 
-void swap0(int &m, int &m);
-void swap1(int *a,int *a);
-
+void swap0(int &, int &);
+void swap1(int *,int *);
+//同时函数
 int main()
 {
 	int a, b;
@@ -15,7 +15,7 @@ int main()
 
 	cout<<"a = "<<a<<", b= "<<b<<endl;
 
-	swap1(&a, &b);
+	swap1(&a, &b);//引入参数地址
 
 	cout<<"a = "<<a<<", b= "<<b<<endl;
 	return 0;
@@ -24,13 +24,13 @@ int main()
 
 void swap0(int &m, int &n)
 {
-	int temp;
-	m = temp;
+	int temp1 = m;
 	n = m;
+	m = temp1;
 }
-void swap1(int *a, int *b);
+void swap1(int *a, int *b)
 {
-	int temp;
+	int temp2 = *a;
 	*a = *b;
-	*b = temp;
+	*b = temp2;
 }

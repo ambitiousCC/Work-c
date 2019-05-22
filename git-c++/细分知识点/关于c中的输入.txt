@@ -1,0 +1,19 @@
+%可读
+	a/A     	读入一个浮点值(仅C99有效) 
+	c		字符(输入的都是有效字符包括空格
+	d		有符号十进制整数
+	f/F/e/E/g/G	浮点数
+	e		自然数计数法
+	g		浮点数不显示无意义的0
+	i		读入十进制，八进制，十六进制整数
+	u		无符号十进制整数
+	o		八进制整数
+	x/X		十六进制整数
+	p		指针
+	s		字符串
+	n               至此已读入值的等价字符数
+	%[]             扫描字符集合
+	%		单独的%
+
+https://blog.csdn.net/We_are_family678/article/details/79731337
+https://blog.csdn.net/hk_kang/article/details/78747726
