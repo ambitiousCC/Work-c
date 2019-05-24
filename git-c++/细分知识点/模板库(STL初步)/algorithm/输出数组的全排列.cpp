@@ -4,10 +4,10 @@
 #include <algorithm>
 using namespace std;
 int main() {
-    int a[4] = {1,2,3,4};
+    char a[5] = {'!','@','%','^','5'};
     do{
-        printf("%d %d %d %d\n",a[0],a[1],a[2],a[3]);
-    } while(next_permutation(a,a+4));
+        printf("%c %c %c %c %c\n",a[0],a[1],a[2],a[3],a[4]);
+    } while(next_permutation(a,a+5));
 
     return 0;
 }

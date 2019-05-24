@@ -1,1 +1,4 @@
 https://blog.csdn.net/hy971216/article/details/80056933
+建立模块化思想，一开始就建立打印函数，然后直接调用，将数组的长度设置成为全局变量使其可以调用
+结构体数组：妈的是类啊
+http://c.biancheng.net/view/2032.html
