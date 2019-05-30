@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 分割函数strtok - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\admin\AppData\Local\Temp\RSP8B5D.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/分割函数strtok.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\files\work-c\细分知识点\使用函数\分割函数strtok.cpp"
+]
+Creating command line "cl.exe @C:\Users\admin\AppData\Local\Temp\RSP8B5D.tmp" 
+Creating temporary file "C:\Users\admin\AppData\Local\Temp\RSP8B5E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/分割函数strtok.pdb" /debug /machine:I386 /out:"Debug/分割函数strtok.exe" /pdbtype:sept 
+".\Debug\分割函数strtok.obj"
+]
+Creating command line "link.exe @C:\Users\admin\AppData\Local\Temp\RSP8B5E.tmp"
+<h3>Output Window</h3>
+Compiling...
+分割函数strtok.cpp
+E:\files\work-c\细分知识点\使用函数\分割函数strtok.cpp(14) : error C2065: 'strtok_r' : undeclared identifier
+E:\files\work-c\细分知识点\使用函数\分割函数strtok.cpp(14) : error C2440: '=' : cannot convert from 'int' to 'char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+E:\files\work-c\细分知识点\使用函数\分割函数strtok.cpp(18) : error C2440: '=' : cannot convert from 'int' to 'char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+分割函数strtok.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

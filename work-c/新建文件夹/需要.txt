@@ -1,0 +1,9 @@
+https://ilovefishc.com/
+
+优先级别问题
+1.同行输入的最先计算
+2.乘法优先
+3.完全全不会啊=没有思路
+
+结构体语法：http://www.cnblogs.com/lzjsky/archive/2010/11/24/1886717.html
+

@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 委托构造函数 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\崔秦\AppData\Local\Temp\RSPD98F.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/委托构造函数.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\C++\work-c\细分知识点\使用函数\面向对象\委托构造函数.cpp"
+]
+Creating command line "cl.exe @"C:\Users\崔秦\AppData\Local\Temp\RSPD98F.tmp"" 
+Creating temporary file "C:\Users\崔秦\AppData\Local\Temp\RSPD9A0.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/委托构造函数.pdb" /debug /machine:I386 /out:"Debug/委托构造函数.exe" /pdbtype:sept 
+".\Debug\委托构造函数.obj"
+]
+Creating command line "link.exe @"C:\Users\崔秦\AppData\Local\Temp\RSPD9A0.tmp""
+<h3>Output Window</h3>
+Compiling...
+委托构造函数.cpp
+d:\c++\work-c\细分知识点\使用函数\面向对象\委托构造函数.cpp(16) : error C2550: 'Clock' : constructor initializer lists are only allowed on constructor definitions
+d:\c++\work-c\细分知识点\使用函数\面向对象\委托构造函数.cpp(16) : warning C4508: 'Clock' : function should return a value; 'void' return type assumed
+d:\c++\work-c\细分知识点\使用函数\面向对象\委托构造函数.cpp(18) : error C2550: 'Clock' : constructor initializer lists are only allowed on constructor definitions
+d:\c++\work-c\细分知识点\使用函数\面向对象\委托构造函数.cpp(18) : warning C4508: 'Clock' : function should return a value; 'void' return type assumed
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+委托构造函数.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
