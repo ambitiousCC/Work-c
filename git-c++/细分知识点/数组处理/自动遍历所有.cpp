@@ -1,14 +1,6 @@
 #include <iostream>
-#include <string>
-#include <cstdio>
 
 using namespace std;
-template <typename T>
-
-T length(T a[])
-{
-	return sizeof(a)/sizeof(T);
-}
 int main()
 {
 	int a[3] = {1,2,3};
@@ -23,9 +15,11 @@ int main()
 
 
 */
-	cout<<length(a)<<endl;
+	for(int &e : a)
+	{
+		e += 2;
+		cout<<e<<endl;
+	}
 
 	return 0;
 }
-
-

@@ -8,7 +8,7 @@ int main()
 	//指定数组的索引值处进行翻转
     int a[10]={10,11,12,13,14,15};
     reverse(a,a+4);
-    for(int i=0;i<6;i++){
+    for(int i=0;i<6;i++) {
         printf("%d ",a[i]);
     }
 

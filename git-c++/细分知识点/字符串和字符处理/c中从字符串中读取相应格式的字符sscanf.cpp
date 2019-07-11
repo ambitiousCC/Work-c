@@ -1,6 +1,6 @@
-#include <cstdlib>//
-#include <cstdio>//
-#include <string>//
+#include <stdlib.h>//
+#include <stdio.h>//
+#include <string.h>//
 
 int main()
 {

@@ -34,4 +34,3 @@ void find(int a[], int len, int key)
 	}
 	cout<<"The key's Index is "<<keyi<<endl;
 }
-
